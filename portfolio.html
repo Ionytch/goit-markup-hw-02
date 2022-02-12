@@ -5,145 +5,151 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Портфолио</title>
+        <!-- основные шрифты -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <!--inside of header-->
-        <header>
-            <nav>
-                <a href="index.html" lang="en">
+        <header class="header">
+            <nav class="navigation">
+                <a class="link mainpage-link" href="index.html" lang="en">
                     WebStudio
                 </a>
-                <ul>
+                <ul class="navigation-list">
                     <!--navigation bar-->
-                    <li>
-                        <a href="index.html" class="navigation-link">Студия</a>
+                    <li class="navigation-item">
+                        <a class="link navigation-link" href="index.html" class="navigation-link">Студия</a>
                     </li>
-                    <li>
-                        <a href="portfolio.html" class="navigation-link">Портфолио</a>
+                    <li class="navigation-item">
+                        <a class="link navigation-link" href="portfolio.html" class="navigation-link">Портфолио</a>
                     </li>
-                    <li>
-                        <a href="" class="navigation-link">Контакты</a>
+                    <li class="navigation-item">
+                        <a class="link navigation-link" href="" class="navigation-link">Контакты</a>
                     </li>
                 </ul>
             </nav>
-            <ul>
+            <ul class="header-contacts">
                 <!--contacts bar-->
-                <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <li class="contacts-item">
+                    <a class="link contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <li class="contacts-item">
+                    <a class="link contacts-link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
         </header>
-        <main> <!-- portfolio navigation -->
+        <main> 
+        <!-- portfolio navigation -->
         <section>
             <h2 hidden>навигация в портфолио</h2>
-            <ul class="button-portfolio-navigation">
+            <ul class="portfolio-navigation">
                 <li>
-                    <button type="button" class="button">Все</button>                    
+                    <button class="btn portfolio-button" type="button" >Все</button>                    
                 </li>
                 <li>
-                    <button type="button" class="button">Веб-сайты</button>                 
+                    <button class="btn portfolio-button" type="button">Веб-сайты</button>                 
                 </li>
                 <li>
-                    <button type="button" class="button">Приложения</button>                      
+                    <button class="btn portfolio-button" type="button">Приложения</button>                      
                 </li>
                 <li>
-                    <button type="button" class="button">Дизайн</button>                    
+                    <button class="btn portfolio-button" type="button">Дизайн</button>                    
                 </li>
                 <li>
-                    <button type="button" class="button">Маркетинг</button>                     
+                    <button class="btn portfolio-button" type="button">Маркетинг</button>                     
                 </li>
             </ul>
         </section>
         <!-- portfolio -->
-        <section>
+        <section class="projects">
             <h2 hidden>портфолио</h2>
-            <ul>
-                <li>
-                    <a href="">
+            <ul class="projects-list">
+                <li class="projects-item">
+                    <a class="link projects-link" href="">
                         <img src="images/portfolio/img1optimized.jpg" alt="фотографии ИТ-специалистов на экране ноутбука" width="370" height="294">
                         <h3>Технокряк</h3>
                     </a>
-                    <p>Веб-сайт</p>
+                    <p class="projects-text">Веб-сайт</p>
                 </li>
-                <li>
-                    <a href="">
+                <li class="projects-item">
+                    <a class="link projects-link" href="">
                         <img src="images/portfolio/img2optimized.jpg" alt="два баскетболиста борются за мяч" width="370" height="294">
                         <h3>Постер <span lang=en>New Orlean vs Golden Star</span></h3>
                     </a>
-                    <p>Дизайн</p>
+                    <p class="projects-text">Дизайн</p>
                 </li>
-                <li>
-                    <a href="">
+                <li class="projects-item">
+                    <a class="link projects-link" href="">
                         <img src="images/portfolio/img3optimized.jpg" alt="эмблема ресторана the seafood" width="370" height="294">
                         <h3>Ресторан <span lang=en>Seafood</span></h3>
                     </a>
-                    <p>Приложение</p>
+                    <p class="projects-text">Приложение</p>
                 </li>
-                <li>
-                    <a href="">
+                <li class="projects-item">
+                    <a class="link projects-link" href="">
                         <img src="images/portfolio/img4optimized.jpg" alt="наушники" width="370" height="294">
                         <h3>Проект <span lang=en>Prime</span></h3>
                     </a>
-                    <p>Маркетинг</p>
+                    <p class="projects-text">Маркетинг</p>
                 </li>
-                <li>
-                    <a href="">
+                <li class="projects-item">
+                    <a class="link projects-link" href="">
                         <img src="images/portfolio/img5optimized.jpg" alt="две коробочки: белая и коричневая" width="370" height="294">
                         <h3>Проект <span lang=en>Boxes</span></h3>
                     </a>
-                    <p>Приложение</p>
+                    <p class="projects-text">Приложение</p>
                 </li>
-                <li>
-                    <a href="">
+                <li class="projects-item">
+                    <a class="link projects-link" href="">
                         <img src="images/portfolio/img6optimized.jpg" alt="монитор компьютера" width="370" height="294">
                         <h3 lang=en>Inspiration has no Borders</h3>
                     </a>
-                    <p>Веб-сайт</p>
+                    <p class="projects-text">Веб-сайт</p>
                 </li>
-                <li>
-                    <a href="">
+                <li class="projects-item">
+                    <a class="link projects-link" href="">
                         <img src="images/portfolio/img7optimized.jpg" alt="раскрытый журнал" width="370" height="294">
                         <h3>Издание <span lang=en>Limited Edition</span></h3>
                     </a>
-                    <p>Дизайн</p>
+                    <p class="projects-text">Дизайн</p>
                 </li>
-                <li>
-                    <a href="">
+                <li class="projects-item">
+                    <a class="link projects-link" href="">
                         <img src="images/portfolio/img8optimized.jpg" alt="лейба" width="370" height="294">
                         <h3>Проект <span lang=en>LAB</span></h3>
                     </a>
-                    <p>Маркетинг</p>
+                    <p class="projects-text">Маркетинг</p>
                 </li>
-                <li>
-                    <a href="">
+                <li class="projects-item">
+                    <a class="link projects-link" href="">
                         <img src="images/portfolio/img9optimized.jpg" alt="руки человека, работающего за ноутбуком" width="370" height="294">
                         <h3 lang=en>Growing Business</h3>
                     </a>
-                    <p>Приложение</p>
+                    <p class="projects-text">Приложение</p>
                 </li>
             </ul>
 
         </section>
     </main>
-    <footer>
-        <div>
-            <a href="index.html" lang="en">
+    <footer class="footer">
+        <div class="footer-div">
+            <a class="link mainpage-link" href="index.html" lang="en">
                 WebStudio
             </a>
-            <address>
-                <ul>
-                    <li>
-                        <a href="https://google.com.ua/maps">г. Киев, пр-т Леси Украинки, 26</a>
+            <address class="address">
+                <ul class="address-list">
+                    <li class="address-item">
+                        <a class="link address-map" href="https://google.com.ua/maps">г. Киев, пр-т Леси Украинки, 26</a>
                     </li>
-                    <li>
-                        <a href="mailto:info@example.com">info@example.com</a>
+                    <li class="address-item">
+                        <a class="link address-link" href="mailto:info@example.com">info@example.com</a>
                     </li>
-                    <li>
-                        <a href="tel:+380991111111">+38 099 111 11 11</a>
+                    <li class="address-item">
+                        <a class="link address-link" href="tel:+380991111111">+38 099 111 11 11</a>
                     </li>
                 </ul>
     
