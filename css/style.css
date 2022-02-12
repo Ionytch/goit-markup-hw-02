@@ -1,0 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: #757575;
+  --linkcolor: #2196f3;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--linkcolor);
+}
+
+.button:hover,
+.button:focus {
+  color: white;
+  background-color: var(--linkcolor);
+}
+.button {
+  cursor: pointer;
+}
+/*  */
