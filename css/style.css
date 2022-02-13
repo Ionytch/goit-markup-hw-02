@@ -30,7 +30,7 @@ body {
   color: var(--whitetext-color);
   background-color: var(--linkcolor);
 }
-.button {
+.btn {
   cursor: pointer;
 }
 .link {
@@ -41,7 +41,6 @@ body {
 /* header */
 .mainpage-link {
   font-family: var(--secondary-font);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -50,12 +49,10 @@ body {
   color: #2196f3;
 }
 .navigation-link {
-  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--maintext-color);
 }
 .contacts-link {
   font-weight: 500;
@@ -80,8 +77,6 @@ body {
 }
 .hero-button {
   font-family: var(--main-font);
-
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -100,7 +95,6 @@ body {
   color: var(--maintext-color);
 }
 .feature-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -117,7 +111,6 @@ body {
   color: var(--maintext-color);
 }
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
@@ -129,14 +122,12 @@ body {
   background-color: #2f303a;
 }
 .address-map {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--whitetext-color);
 }
 .address-link {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -160,10 +151,8 @@ body {
   line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
-  color: var(--maintext-color);
 }
 .projects-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   /* identical to box height, or 187% */
