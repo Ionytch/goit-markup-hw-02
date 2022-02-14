@@ -18,6 +18,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--maintext-color);
 }
+.list{
+  list-style: none;
+}
 /* оформление кнопок и ссыслок */
 .link:hover,
 .link:focus {
@@ -31,13 +34,14 @@ body {
 }
 .btn {
   cursor: pointer;
-}
+ }
 .link {
   text-decoration: none;
   color: var(--maintext-color);
 }
 
 /* header */
+.logostyle-header{color: var(--maintext-color);}
 .mainpage-link {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -45,6 +49,7 @@ body {
   line-height: 1.19;  
   letter-spacing: 0.03em;
   color: var(--linkcolor);
+
 }
 .navigation-link {
   font-weight: 500;
@@ -81,7 +86,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--othertext-color);
+  color: var(--whitetext-color);
+  background-color: var(--linkcolor);
 }
 /* our features section */
 .feature-title {
@@ -117,17 +123,20 @@ body {
 .footer {
   background-color: #2f303a;
 }
+.logostyle-footer{color: var(--whitetext-color);}
 .address-map {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--whitetext-color);
+  font-style: normal;
 }
 .address-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
 /* portfolio page */
 /* portfolio navigation section */
@@ -141,16 +150,21 @@ body {
   color: var(--maintext-color);
 }
 /* portfolio section */
-.projects-link {
+.projects-link {  
+  text-decoration: none;  
+}
+.project-title{
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
+  color: var(--maintext-color);
 }
 .projects-text {
   font-size: 16px;
   line-height: 1.87;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
+  color: var(--othertext-color);
 }
